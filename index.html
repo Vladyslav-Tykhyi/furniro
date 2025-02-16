@@ -4,14 +4,182 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/furniro/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Furniro</title>
     <script type="module" crossorigin src="/furniro/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/furniro/assets/index-utTEWfZ6.css">
+    <link rel="stylesheet" crossorigin href="/furniro/assets/index-DYaBeVor.css">
   </head>
   <body>
-    
+    <header class="header">
+  <nav class="header-nav">
+    <a href="./index.html" class="header-logo">
+      <img src="./favicon.svg" alt="Furniro Logo" class="header-logo-image" />
+      Furniro
+    </a>
+    <ul class="header-nav-list">
+      <li class="header-nav-item">
+        <a href="#" class="header-item-link">Home</a>
+      </li>
+      <li class="header-nav-item">
+        <a href="#" class="header-item-link">Shop</a>
+      </li>
+      <li class="header-nav-item">
+        <a href="#" class="header-item-link">About</a>
+      </li>
+      <li class="header-nav-item">
+        <a href="#" class="header-item-link">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <ul class="header-page-nav">
+    <li class="header-nav-link">
+      <svg class="header-link-icon" width="28" height="28">
+        <use href="/furniro/assets/icons-DZ2GAvd9.svg#icon-user-ac"></use>
+      </svg>
+    </li>
+    <li class="header-nav-link">
+      <svg class="header-link-icon icon-color" width="28" height="28">
+        <use href="/furniro/assets/icons-DZ2GAvd9.svg#icon-search"></use>
+      </svg>
+    </li>
+    <li class="header-nav-link">
+      <svg class="header-link-icon icon-color" width="28" height="28">
+        <use href="/furniro/assets/icons-DZ2GAvd9.svg#icon-heart"></use>
+      </svg>
+    </li>
+    <li class="header-nav-link">
+      <svg class="header-link-icon" width="28" height="28">
+        <use href="/furniro/assets/icons-DZ2GAvd9.svg#icon-ant-desshopping-car"></use>
+      </svg>
+    </li>
+  </ul>
+</header>
 
-    <main></main>
+
+    <main>
+      <section class="hero" id="hero">
+  <div class="hero-container">
+    <p class="hero-top-text">New Arrival</p>
+    <h1 class="hero-title">Discover Our New Collection</h1>
+    <p class="hero-text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+      luctus nec ullamcorper mattis.
+    </p>
+    <a href="#" class="hero-btn">BUY NOW</a>
+  </div>
+</section>
+
+      <section class="range" id="range">
+  <div class="range-container">
+    <h2 class="range-title">Browse The Range</h2>
+    <p class="range-text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </p>
+    <ul class="range-list">
+      <li class="range-list-item">
+        <picture>
+          <source
+            srcset="/furniro/assets/dinning-room-B5CSBSZr.png 1x, /furniro/assets/dinning-room@2x-DeIhtLN7.png 2x"
+            media="(max-width:1200px)"
+          />
+          <img
+            src="/furniro/assets/dinning-room-B5CSBSZr.png"
+            alt="Dinning room on Furniro"
+            class="range-item-image"
+          />
+        </picture>
+        <p class="subtext">Dining</p>
+      </li>
+      <li class="range-list-item">
+        <picture>
+          <source
+            srcset="/furniro/assets/living-room-D2SnP7qj.png 1x, /furniro/assets/living-room@2x-CV1Uac0O.png 2x"
+            media="(max-width:1200px)"
+          />
+          <img
+            src="/furniro/assets/living-room-D2SnP7qj.png"
+            alt="Living room on Furniro"
+            class="range-item-image"
+          />
+        </picture>
+        <p class="subtext">Living</p>
+      </li>
+      <li class="range-list-item">
+        <picture>
+          <source
+            srcset="/furniro/assets/bedroom-gQi_Ss_o.png 1x, /furniro/assets/bedroom@2x-D-F9E2wP.png 2x"
+            media="(max-width:1200px)"
+          />
+          <img
+            src="/furniro/assets/bedroom-gQi_Ss_o.png"
+            alt="Bedroom on Furniro"
+            class="range-item-image"
+          />
+        </picture>
+        <p class="subtext">Bedroom</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="benefits" id="benefits">
+  <div class="inner-wrapper">
+    <h2 class="benefits-title visually-hidden">Our Guarantees</h2>
+    <ul class="benefits-list">
+      <li class="benefits-list-item">
+        <svg class="benefits-item-icon" width="60" height="60">
+          <use href="/furniro/assets/icons-DZ2GAvd9.svg#icon-trophy"></use>
+        </svg>
+        <div class="benefits-item-container">
+          <h3 class="benefits-item-title">High Quality</h3>
+          <p class="benefits-item-text">crafted from top materials</p>
+        </div>
+      </li>
+      <li class="benefits-list-item">
+        <svg class="benefits-item-icon" width="60" height="60">
+          <use href="/furniro/assets/icons-DZ2GAvd9.svg#icon-guarantee"></use>
+        </svg>
+        <div class="benefits-item-container">
+          <h3 class="benefits-item-title">Warranty Protection</h3>
+          <p class="benefits-item-text">Over 2 years</p>
+        </div>
+      </li>
+      <li class="benefits-list-item">
+        <svg class="benefits-item-icon" width="60" height="60">
+          <use href="/furniro/assets/icons-DZ2GAvd9.svg#icon-shipping"></use>
+        </svg>
+        <div class="benefits-item-container">
+          <h3 class="benefits-item-title">Free Shipping</h3>
+          <p class="benefits-item-text">Order over 150 $</p>
+        </div>
+      </li>
+      <li class="benefits-list-item">
+        <svg class="benefits-item-icon" width="60" height="60">
+          <use href="/furniro/assets/icons-DZ2GAvd9.svg#icon-support"></use>
+        </svg>
+        <div class="benefits-item-container">
+          <h3 class="benefits-item-title">24 / 7 Support</h3>
+          <p class="benefits-item-text">Dedicated support</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    </main>
 
     
 
