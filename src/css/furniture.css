@@ -56,7 +56,3 @@ picture {
 .flex-end {
   align-self: flex-end;
 }
-
-img:hover {
-  scale: 1.05;
-}

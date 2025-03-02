@@ -1,0 +1,37 @@
+.explore {
+  padding: 40px 0;
+  background-color: #fcf8f3;
+}
+.explore-container {
+  padding: 44px 0;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.explore-side-block {
+  margin: 0 0 0 100px;
+  max-width: 422px;
+}
+.explore-side-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #616161;
+  margin: 0 0 25px 0;
+}
+.explore-side-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  color: #3a3a3a;
+  margin: 0 0 8px 0;
+}
+.explore-side-link {
+  display: inline-block;
+  padding: 12px 36px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  background-color: #b88e2f;
+}
