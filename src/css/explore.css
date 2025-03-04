@@ -2,11 +2,15 @@
   padding: 40px 0;
   background-color: #fcf8f3;
 }
+
+.explore .container {
+  padding: 0 0;
+}
+
 .explore-container {
-  padding: 44px 0;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  display: flex;
+  align-items: center;
+  gap: 42px;
 }
 .explore-side-block {
   margin: 0 0 0 100px;
@@ -34,4 +38,28 @@
   line-height: 150%;
   color: #fff;
   background-color: #b88e2f;
+}
+
+.swiper {
+  width: 100%;
+  max-width: 800px;
+  height: 486px;
+}
+
+.explore-container .swiper {
+  margin: 0;
+}
+
+.explore-container .swiper-wrapper {
+  gap: 24px;
+}
+/* 
+.swiper-wrapper .swiper-slide {
+  width: calc((100% - 96px) / 5);
+} */
+
+.swiper-btn-right {
+  background-color: black;
+
+  position: absolute;
 }
